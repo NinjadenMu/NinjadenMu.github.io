@@ -22,7 +22,7 @@ title: Ninjaden
 email: NinjadenMu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, I'm Jaden - a high school student interested in computer science and programming.
-baseurl: "_site" # the subpath of your site, e.g. /blog
+baseurl: "/my_site" # the subpath of your site, e.g. /blog
 url: "NinjadenMu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NinjadenMu
 github_username:  NinjadenMu
