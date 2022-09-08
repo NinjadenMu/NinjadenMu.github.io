@@ -18,19 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ninjaden
-email: NinjadenMu@gmail.com
+title: NinjadenMu
+email: ninjadenmu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, I'm Jaden - a high school student interested in computer science and programming.
-baseurl: "/my_website" # the subpath of your site, e.g. /blog
-url: "NinjadenMu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: NinjadenMu
-github_username:  NinjadenMu
+  Hi, I'm Jaden.  I'm a High School student interested in computer science and this is my webpage, where I write about some of my projects.
+baseurl: 
+url: "https://ninjadenmu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
