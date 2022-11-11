@@ -2,7 +2,7 @@
 layout: post
 title:  "Algorithmic Gerrymandering Pt. 1: Modelling population and voter distributions"
 date:   2022-10-01 16:22:41 -0400
-categories: jekyll update
+categories: Gerrymandering
 ---
 
 ### What is Gerrymandering?
