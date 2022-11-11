@@ -42,16 +42,19 @@ Recall that a lattice model is grid representing an area with each tile represen
 #### Assigning populations
 To replicate the population spikes we saw in a real population map, we'll randomly assign a few tiles to be our population centers and give them a large population.  Every other tile will start with a population of 0.  Then, we give every person in these population centers a random number of moves based on a Gaussian distribution centered around the number of moves it would take to get from the center of the grid to a corner.  Then, we let each agent randomly makes moves in one of the 4 cardinal directions until it has expended all of its moves, and add one to the population of the tile it ends up on.  Because a) going far from the population center is more unlikely because it requires many moves in one direction in a row and b) most agents don't have enough moves to go very far from their starting point, most of the agents remain concentrated at the population center or in its immediate vincinity.  However, this method does give us some random noise each time, so we aren't constantly generating the same population spread.
 #### Assigning voter preferences
-We saw that voter preferences formed a gradient between the most extreme source points, and that the region in the middle was the most moderate.  The closer a region is to a radical hotspot, the more radical it is.  A region perfectly in between to radical areas is relatively neutral - suggesting that 2 radical regions can cancel each toehr out.  To replicate this, we randomly assign some tiles to be extreme areas with a voter preference of 1 or -1.  Every other tile has a voter preference of 0.  We then have each extreme tile add +-1/d to every other non-extreme tile, where d is the distances from the extreme tile to the other tile.  This ensures that closer extreme tiles have more influence, and also creates the smooth gradient - a tile in the middle of 2 extreme tiles will have preference +1/d - 1/d = 0. 
+We saw that voter preferences formed a gradient between the most extreme source points, and that the region in the middle was the most moderate.  The closer a region is to a radical hotspot, the more radical it is.  A region perfectly in between to radical areas is relatively neutral - suggesting that 2 radical regions can cancel each other out.  To replicate this, we randomly assign some tiles to be extreme areas with a voter preference of 1 or -1.  Every other tile has a voter preference of 0.  We then have each extreme tile add +-1/d to every other non-extreme tile, where d is the distances from the extreme tile to the other tile.  This ensures that closer extreme tiles have more influence, and also creates the smooth gradient - a tile in the middle of 2 extreme tiles will have preference +1/d - 1/d = 0. 
 
 
 Combining these methods, we can generate a lattice model that looks like this:
 ![Example model](/assets/gerrymander/model.png)
 The example created is a 20x20 lattice model with 3 population source points - we have a smooth fall off of population around the 3 population centers and a gradient between radical regions with more moderate tiles.
+Next, to create a gerrymandered set of districts for our lattice model, we'll have to assign each of these tiles to a district in a way where the total political preference of most districts (the sum of all the voter preferences of the tiles in the district) slightly favors the favored party.
 
 
 ### Code
 The full source code for generating and viewing the population map can be found
 [here](https://github.com/NinjadenMu/gerrymander/blob/main/region.py)
+
+[NEXT](https://ninjadenmu.github.io/gerrymandering/2022/11/11/Algorithmic-Gerrymandering-pt2.html)
 
 
