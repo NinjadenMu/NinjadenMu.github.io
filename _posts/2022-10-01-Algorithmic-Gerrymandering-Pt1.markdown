@@ -21,7 +21,7 @@ The two main methods of gerrymandering are cracking and packing. Cracking splits
 
 Packing involves concentrating most of one group's population in a few districts, so that the group has less representation in every other district.  Since margin of victory doesn't matter in a district, the extra voters in a packed district make no difference in the result - their vote is "wasted".  This is seen in the 2nd districting, where most of blue's voters are packed into the 2 rightmost districts, which they win by an overwhelming majority, but at the cost of losing the other 3 districts.  
 
-### State population and voter preference distribution
+### State population and voter preference distribution in the real world
 Instead of taking census and polling data from real states, we'll be trying to gerrymander a lattice model, like the grid we saw in the example above.  However, the example was missing to important features: it assumed that the population of each tile was equal, and that each tile was either completely red or completely blue.  The population aspect of each tile is critical because a tile with more population has more impact on a districts vote - a district made up of a red tile with 9900 voters and a blue tile of 100 voters is not 50-50, its 99% red.  A gradient of voter preference is also important - some geographic regions are more moderate than others.  
 
 #### Population
