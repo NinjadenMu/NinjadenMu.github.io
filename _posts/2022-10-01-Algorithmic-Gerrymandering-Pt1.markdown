@@ -47,7 +47,7 @@ We saw that voter preferences formed a gradient between the most extreme source 
 
 Combining these methods, we can generate a lattice model that looks like this:
 ![Example model](/assets/gerrymander/model.png)
-The example created is a 20x20 lattice model with 3 population source points - note the smooth fall off of population around the 3 population centers and gradient between radical regions.
+The example created is a 20x20 lattice model with 3 population source points - we have a smooth fall off of population around the 3 population centers and a gradient between radical regions with more moderate tiles.
 
 
 ### Code
