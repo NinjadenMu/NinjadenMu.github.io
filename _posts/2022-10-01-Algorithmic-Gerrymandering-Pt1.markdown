@@ -55,6 +55,6 @@ Next, to create a gerrymandered set of districts for our lattice model, we'll ha
 The full source code for generating and viewing the population map can be found
 [here](https://github.com/NinjadenMu/gerrymander/blob/main/region.py)
 
-[NEXT](https://ninjadenmu.github.io/gerrymandering/2022/11/11/Algorithmic-Gerrymandering-pt2.html)
+[NEXT](https://ninjadenmu.github.io/gerrymandering/2023/01/11/Algorithmic-Gerrymandering-pt2.html)
 
 
