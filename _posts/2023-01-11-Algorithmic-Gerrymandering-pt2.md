@@ -72,6 +72,9 @@ Additionally, the target margins of victory are chosen by the human.  It's fairl
 <br>
 The weights in the evaluation function could also be tuned - because the evaluation function is a weighted sum, the algorithm will heavily prioritize characteristics with a higher weight.  Something like a grid search of parameters might be possible to choose better coefficients, although the ones I have choosen do a decent job balancing population with partisan bias.
 
+### Code
+View the full project [here](https://github.com/NinjadenMu/gerrymander).  This article was focused on gerrymander.py
+
 
 
 
