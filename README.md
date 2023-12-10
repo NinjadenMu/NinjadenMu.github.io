@@ -1,3 +1,3 @@
 # NinjadenMu.github.io
-
-Github pages hosting website with more detailed writing on my best projects
+This is my (Jaden Mu) website
+It contains detailed writing on my best projects
