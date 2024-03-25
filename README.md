@@ -1,3 +1,3 @@
-# NinjadenMu.github.io
+# Jaden Mu: NinjadenMu.github.io
 
-Github pages hosting website with more detailed writing on my best projects
+This is my website - it contains detailed writing on my best projects, such as a chess engine, gerrymandering program, RCNN object detector, Space Invaders with special relativity, and various AI/ML projects.
