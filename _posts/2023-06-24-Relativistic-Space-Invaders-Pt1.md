@@ -6,7 +6,7 @@ categories: Special Relativity
 ---
 
 ### Why Special Relativity was Formulated
-Almost all of our everyday experience involves objects with velocities significantly less than that of light.  Newtonian physics was based on the observation of these slow objects, and therefore fails to model the motion of objects at speeds near the speed of light.  Regarding his special relativity theory, Einstein wrote: "The relativity theory arose from necessity, from serious and deep contradictions in the old theory from which there seemed no escape. The strength of the new theory lies in the consistency and simplicity with which it solves all these difficulties.".  As the velocities of objects approach 0, Einstein's theory approaches the results given by Newtonian physics - however, Einstein's theories were also consistent with observations of objects at velocities near the speed of light.   
+Almost all of our everyday experience involves objects with velocities significantly less than that of light.  Newtonian physics was based on the observation of these slow objects, and therefore fails to model the motion of objects at speeds near the speed of light.  Regarding his special relativity theory, Einstein wrote: "The relativity theory arose from necessity, from serious and deep contradictions in the old theory from which there seemed no escape. The strength of the new theory lies in the consistency and simplicity with which it solves all these difficulties."  As the velocities of objects approach 0, Einstein's theory approaches the results given by Newtonian physics - however, Einstein's theories were also consistent with observations of objects at velocities near the speed of light.   
 
 ### Before Special Relativity - Galilean Relativity
 
