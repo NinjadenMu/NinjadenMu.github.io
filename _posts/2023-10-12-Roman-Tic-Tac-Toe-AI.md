@@ -3,6 +3,7 @@ layout: post
 title:  "Roman Tic-Tac-Toe (Rota) AI"
 date:   2023-10-12 01:48:12 -0400
 categories: Game Playing AI
+author: Jaden Mu
 ---
 ### The inspiration for this project
 I was walking to lunch today when I passed the Latin classroom, and impulsively, I decided to take a look at the Latin club meeting that was going on.  I had taken 4 years of Latin, ending last year - it wasn't an easy class, but I did enjoy it overall and intend to take one more year in my senior year.  The Latin club was hosting a Roman Tic-Tac-Toe competition, which I managed to win.  I got a really cool scorpion made of pipe cleaners as a prize, but more importantly, was introduced to a pretty interesting game. 

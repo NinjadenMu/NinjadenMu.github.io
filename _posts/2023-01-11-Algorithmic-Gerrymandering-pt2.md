@@ -3,6 +3,7 @@ layout: post
 title:  "Algorithmic Gerrymandering Pt. 2: Gerrymandering the Lattice Model"
 date:   2023-01-11 16:48:59 -0400
 categories: Gerrymandering
+author: Jaden Mu
 ---
 
 ### The Foundations

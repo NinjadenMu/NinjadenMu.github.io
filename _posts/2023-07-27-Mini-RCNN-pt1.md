@@ -2,7 +2,8 @@
 layout: post
 title:  "Mini-RCNN Pt. 1 - What is Object Detection and how do RCNN models do it?"
 date:   2023-07-27 16:40:32 -0400
-categories: Special Relativity
+categories: Object Detection
+author: Jaden Mu
 ---
 
 ### What is Object Detection
