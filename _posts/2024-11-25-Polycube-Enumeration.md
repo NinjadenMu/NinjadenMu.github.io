@@ -6,7 +6,7 @@ categories: Fun Programming Problem
 author: Jaden Mu
 ---
 ### The Inspiration for This Project
-In my Intro to Engineering class, we were tasked with building a Megaron puzzle cube out of 27 3/4" wood cubes.  A Megaron cube consists of 5 parts (each built out of some number of 3/4" wood cubes) that should assemble into a 3x3x3 cube, as shown below: 
+In my Intro to Engineering class, we were tasked with building a Megaron puzzle cube out of 27 3/4" wood cubes.  A Megaron cube consists of 5 puzzle piece (each built out of some number of 3/4" wood cubes) that should assemble into a 3x3x3 cube, as shown below: 
 ![Megaron Cube](/assets/polycubes/fabricated_megaron.jpg)
 Part of the assignment was calculating the number of unique possible puzzle pieces given *n* 3/4" wood cubes.  There's 1 possible puzzle part for 1 wood cube (obviously), 1 possible puzzle part for 2 cubes (different orientations still count as the same cube), 2 possibilities for 3 cubes, and 6 possibilities for 4 cubes.  It gets a little trickier to keep track of the number of possibilities as *n* exceeds 5 - I think my teacher underestimated the difficulty of the problem when she assigned it.
 ![Chart of Polycubes](/assets/polycubes/handdrawn_possibilities.png)
