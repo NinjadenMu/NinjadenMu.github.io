@@ -41,12 +41,14 @@ We can see that the drones group up into a flock, and then move towards the targ
 ![Perturbed Flocking GIF](/assets/swarms/7FFB0075-425F-424B-9FD6-EB8DEE8CAF0C.gif)
 
 You'll notice there's a little bit noise as the flock is heading towards the waypoint, but every drone still makes it to the target: the random reported positions are causing some jitters but are averaged out.
-<!---
+
 ### Particle Swarm Optimization (PSO)
 Overall, the above drone flocking algorithm is pretty simple and qualitative, although I do think it's kinda cool.  However, it's very close to an algorithm called particle swarm optimization, which I found interesting both conceptually and mathematically (this is the first time I've looked at optimization from a more rigorous angle.)
 
-Imagine some higher dimensional space.  Each point in this space is associated with some "cost", and we want to find the point with the minimum cost.  If we can't differentiate this cost function, we have to resort to methods like PSO, which explores the space to try and find a good solution (which may not be optimal - it's generally infeasible to explore the whole space).  
--->
+Imagine some higher dimensional space, where each point is associated with some "cost" (in a space of n dimensions, each point is defined by (a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>), where each a ∈ ℝ, or rather, each point belongs to ℝ^n.  In 3d space, (a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>) correspond to (x, y, z).)  Our goal is to find the point in this space with the lowest cost.  If we can't differentiate this cost function, we have to resort to methods like PSO, which explore the space to try and find a good solution (the solution may not be optimal - it's generally infeasible to explore the whole space).  
+
+Particle Swarm Optimization is a bio-inspired algorithm...
+
 
 
 
