@@ -10,7 +10,7 @@ Imagine a self-driving car passing a strange looking piece of graffiti.  All of 
 
 ![Adversarial Example](/assets/adav/adversarial_example.png)
 
-The leftmost image in the diagram above is a perfectly normal photograph, which is correctly classified as a pig by a well-trained ResNet model.  By adding a tiny amount of specially generated noise to the image, we get the image on the right.  Although the intensity of the noise is so low that the 2 images look the same to a human, the ResNet model now classifies the second image as a pig!  This is called an "adversarial example attack", or an "adversarial perturbation".
+The leftmost image in the diagram above is a perfectly normal photograph, which is correctly classified as a pig by a well-trained ResNet model.  By adding a tiny amount of specially generated noise to the image, we get the image on the right.  Although the intensity of the noise is so low that the 2 images look the same to a human, the ResNet model now classifies the second image as an airplane!  This is called an "adversarial example attack", or an "adversarial perturbation".
 
 ### Adversarial Perturbations
 Of course, the vast majority (by which I mean almost all) of the possible perturbations/patterns of random noise don't cause ML models to make such ridiculous misclassifications.  Adversarial perturbations are very carefully designed layers of noise that usually require access to a model's weights (whitebox access), assumptions about a model's architecture and differentiability, and a bit of computational power to generate.  
