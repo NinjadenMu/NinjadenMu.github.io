@@ -6,7 +6,7 @@ categories: AI
 author: Jaden Mu
 ---
 ### Intro
-Imagine a self-driving car passing a strange looking piece of graffiti.  All of a sudden, the vehicle fails to respond to a stop sign, and runs into an intersection.  That piece of "graffiti" might have been an adversarial attack.  In this post, I'll give you the context for my research paper ([Arxiv](https://arxiv.org/abs/2412.06215)) on defending autonomous vehicles against adversarial attacks, and share some of the really fascinating things I've learned over the last 2 years.
+Imagine a self-driving car passing a strange looking piece of graffiti.  All of a sudden, the vehicle fails to respond to a stop sign, and runs into an intersection.  That piece of "graffiti" might have been an adversarial attack.  In this post, I'll give you the context for my NC Science and Engineering Fair project, which I later expanded into a research paper ([Arxiv](https://arxiv.org/abs/2412.06215)) on defending autonomous vehicles against adversarial attacks, and share some of the really fascinating things I've learned over the last 2 years.
 
 ![Adversarial Example](/assets/adav/adversarial_example.png)
 
