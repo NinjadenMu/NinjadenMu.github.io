@@ -47,7 +47,6 @@ Overall, the above drone flocking algorithm is pretty simple and qualitative, al
 
 Imagine some higher dimensional space, where each point is associated with some "cost" (in a space of n dimensions, each point is defined by (a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>), where each a ∈ ℝ, or rather, each point belongs to ℝ^n.  In 3d space, (a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>) correspond to (x, y, z).)  Our goal is to find the point in this space with the lowest cost.  If we can't differentiate this cost function, we have to resort to methods like PSO, which explore the space to try and find a good solution (the solution may not be optimal - it's generally infeasible to explore the whole space).  
 
-Particle Swarm Optimization is a bio-inspired algorithm...
 
 
 
