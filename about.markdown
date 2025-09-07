@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Jaden - a HS student who enjoys CS and programming.  In particular, I'm interested in drones, game playing AI, and ML.  When I'm not programming, I'm probably playing the cello, tennis, or chess :)
+Hi, I'm Jaden.  I'm a student at CMU SCS, and I'm interested in robotics, ML, and generally getting computers to produce intelligent behaviors.
